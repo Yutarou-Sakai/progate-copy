@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <title>Progate</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <nav class="navbar fixed-top navbar-expand-sm bg-dark">
+      <a class="navbar-brand" href="#"><img src="img/main_logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">レッスン</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">新規登録</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ログイン</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- メイン -->
+  <main>
+    <!-- 新規登録 -->
+    <section class="main-description">
+      <div class="main-para item">
+        <h1>LEARN TO CODE.<br> LEARN TO BE CREATIVE.</h1>
+        <p>progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
+      </div>
+
+      <div class="register-btn item">
+        <button id="new-register">新規登録はこちら</button>
+        <p>or</p>
+        <button id="facebook">Facebookで登録</button>
+        <button id="twitter">Twitterで登録</button>
+      </div>
+    </section>
+
+    <!-- レッスン選択 -->
+    <section class="main-detail">
+      <div class="container">
+        <div class="main-detail-txt">
+          <h2>Learn Where to Get Started!</h2>
+        </div>
+        <div class="row">
+          <div class="html col-sm-6 col-lg-3">
+            <div class="html-icon">
+              <img src="img/html.png" alt="">
+              <h3>HTML & CSS</h3>
+            </div>
+            <p>ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
+          </div>
+          <div class="jquery col-sm-6 col-lg-3">
+            <div class="jquery-icon">
+              <img src="img/jQuery.png" alt="">
+              <h3>jQuery</h3>
+            </div>
+            <p>素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
+          </div>
+          <div class="ruby col-sm-6 col-lg-3">
+            <div class="ruby-icon">
+              <img src="img/ruby.png" alt="">
+              <h3>Ruby</h3>
+            </div>
+            <p>オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
+          </div>
+          <div class="php col-sm-6 col-lg-3">
+            <div class="php-icon">
+              <img src="img/php.png" alt="">
+              <h3>PHP</h3>
+            </div>
+            <p>HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="register">
+      <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?<br>Let's learn to code, learn to be creative!</h2>
+      <button>さっそく開発する</button>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <img src="img/footer_logo.png" alt="">
+    <p>Learn to Code, Learn to be Creative.</p>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
